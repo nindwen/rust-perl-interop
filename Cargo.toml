@@ -1,0 +1,11 @@
+[package]
+name = "moi"
+version = "0.1.0"
+authors = ["Laura Ketola <laura.ketola@gofore.com>"]
+
+[dependencies]
+libc = "0.2.28"
+
+[lib]
+name = "moi"
+crate-type = ["dylib"] 
