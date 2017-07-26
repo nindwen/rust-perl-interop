@@ -8,3 +8,8 @@ pub extern fn moi() -> *const c_char {
     std::mem::forget(s);
     p
 }
+
+#[no_mangle]
+pub extern fn hirvi(luku: i32) -> i32 {
+    luku * 42
+}
